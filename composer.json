@@ -1,0 +1,23 @@
+{
+    "name": "marcorieser/error-messages",
+    "autoload": {
+        "psr-4": {
+            "MarcoRieser\\ErrorMessages\\": "src"
+        }
+    },
+    "extra": {
+        "statamic": {
+            "name": "Error Messages",
+            "description": "Provides access to the error bag messages in antlers."
+        },
+        "laravel": {
+            "providers": [
+                "MarcoRieser\\ErrorMessages\\ServiceProvider"
+            ]
+        }
+    },
+    "require": {
+        "php": "^8.0",
+        "statamic/cms": "^3.2"
+    }
+}
